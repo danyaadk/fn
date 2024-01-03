@@ -1,0 +1,9 @@
+def fibonacci(n):
+    a, b = 0, 1
+    for i in range(n):
+        print(a, end=" ")
+        a, b = b, a + b
+
+# Example usage
+n_terms = 10  # You can change this number to get more or less terms
+fibonacci(n_terms)
